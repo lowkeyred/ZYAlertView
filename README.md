@@ -1,7 +1,8 @@
 # ZYAlertView
 //按钮点击事件
+//convertRect: toView 获取到屏幕上该控件的绝对位置。
 - (void) _buttonOptionPressed:(UIButton *)optionButton {
-    //convertRect: toView 获取到屏幕上该控件的绝对位置。
+    
     UIWindow *window = [[UIApplication sharedApplication].delegate window];#    CGRect frame = [optionButton convertRect:optionButton.bounds toView:window];
     ZYAlertMessageView *alertView = [[ZYAlertMessageView alloc] initWithFrame:CGRectMake(self.view.bounds.origin.x, self.view.bounds.origin.y, self.view.bounds.size.width, self.view.bounds.size.height+64)];//self.view.bounds
     //标题数组
