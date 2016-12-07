@@ -20,4 +20,4 @@
 	}<br />
 </code></pre>
 
-![image](images/D4FA56CF34CF8C71280A2F8083FED417.png)
+![image](D4FA56CF34CF8C71280A2F8083FED417.png)
